@@ -1,6 +1,5 @@
 body {
-    width: 100%;
-    height: auto;
+    color: #26294a;
 }
 
 .navbar-brand {
@@ -36,15 +35,12 @@ body {
 
 footer {
     padding: 10px;
-    margin-top: 30px;
     color: #ffffff;
     background-color: #0d0d0d;
     text-align: center;
 }
 
-body {
-    color: #26294a;
-}
+
 
 .row {
     height: 5px;
