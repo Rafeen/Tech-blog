@@ -1,0 +1,37 @@
+body {
+    font-family: solaiman-lipi, 'Noto Serif', PT Serif, Lora, Roboto Slab, Arial, serif;
+    color: #26294a;
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.row {
+    height: 5px;
+}
+
+.gradient0 {
+    background: linear-gradient(to left, #022b7a, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461, #022b7a);
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    padding: 0px;
+
+}
+
+.btn-outline-secondary {
+    background-color: #ffffff;
+    border-color: darkgray;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ffffff;
+    color: #85155f;
+}
+
+.maincontainer {
+    padding: 0 17%;
+}
+
+.nameColor {
+    color: #85155f; /* #066057; #261f72; #ed2b44;*/
+}
