@@ -1,6 +1,5 @@
 body {
-    width: 100%;
-    height: auto;
+    color: #26294a;
 }
 
 .navbar-brand {
@@ -36,15 +35,12 @@ body {
 
 footer {
     padding: 10px;
-    margin-top: 30px;
     color: #ffffff;
     background-color: #0d0d0d;
     text-align: center;
 }
 
-body {
-    color: #26294a;
-}
+
 
 .row {
     height: 5px;
@@ -55,9 +51,14 @@ body {
 }
 
 .btn-primary {
-    background-color: #337ab7;
+    background-color: #055459;
     padding: 0;
+    cursor: none;
+    pointer-events: none;
+}
 
+.noHover{
+    pointer-events: none;
 }
 
 .btn-outline-secondary {
@@ -76,4 +77,23 @@ body {
 
 .nameColor {
     color: #85155f; /* #066057; #261f72; #ed2b44;*/
+}
+
+/* size of button */
+.btn-style{
+    width: fit-content;
+    height: 20px;
+    font-size: 12px;
+    background-color: #055459;
+  /*  background-color:#092b71; */
+ /*   background-color: #343a40; */
+    border: #055459;
+    color: white;
+    padding-bottom: 8px;
+}
+
+/* article font */
+
+.article-font{
+    font-size: 18px;
 }
