@@ -5,7 +5,6 @@ body {
 .navbar-brand {
     font-family: 'Caveat Brush', serif;
     font-size: 30px;
-
 }
 
 .navbar-brand img {
@@ -33,32 +32,12 @@ body {
     height: auto;
 }
 
-footer {
-    padding: 10px;
-    color: #ffffff;
-    background-color: #0d0d0d;
-    text-align: center;
-}
-
-
-
 .row {
     height: 5px;
 }
 
 .gradient0 {
     background: linear-gradient(to left, #022b7a, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461, #022b7a);
-}
-
-.btn-primary {
-    background-color: #055459;
-    padding: 0;
-    cursor: none;
-    pointer-events: none;
-}
-
-.noHover{
-    pointer-events: none;
 }
 
 .btn-outline-secondary {
@@ -81,19 +60,27 @@ footer {
 
 /* size of button */
 .btn-style{
-    width: fit-content;
-    height: 20px;
+    font-family: Raleway-SemiBold, serif;
     font-size: 12px;
-    background-color: #055459;
-  /*  background-color:#092b71; */
- /*   background-color: #343a40; */
-    border: #055459;
-    color: white;
-    padding-bottom: 8px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 1px solid rgba(58, 133, 191, 0.75);
+    border-radius: 5px;
+    cursor: none;
+    pointer-events: none;
+    /*background-color: rgba(108, 88, 179, 0.75);*/
+    /*background-color:#092b71; */
+    /*background-color: #343a40; */
 }
 
 /* article font */
-
 .article-font{
     font-size: 18px;
 }
+
+/*!* Footer *!*/
+/*.site-footer{*/
+    /*margin-top: 30px;*/
+    /*color: #ffffff;*/
+    /*background-color: #0d0d0d;*/
+/*}*/
