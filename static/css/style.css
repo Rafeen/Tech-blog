@@ -37,7 +37,8 @@ body {
 }
 
 .gradient0 {
-    background: linear-gradient(to left, #022b7a, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461, #022b7a);
+/*    background: linear-gradient(to left, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461);
+*/    background: linear-gradient(to left, #0b032d, #843b62, #f67e7d, #ffb997, #f5c181, #fff1c1, #f76262, #216583, #293462);
 }
 
 .btn-outline-secondary {
@@ -56,6 +57,11 @@ body {
 
 .nameColor {
     color: #85155f; /* #066057; #261f72; #ed2b44;*/
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
 
 /* size of button */
