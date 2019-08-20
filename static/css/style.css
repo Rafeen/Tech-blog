@@ -1,6 +1,19 @@
 body {
     color: #26294a;
+    letter-spacing: 0;
+    /*background: linear-gradient(to left, #e6e3e3, #ffffff, #e6e3e3);*/
 }
+
+.navbar {
+    /*background-color: #000033;*/
+    background-color: #00001a;
+    /*background-color: #141519;*/
+    /*#563e7c #422057ff #141519*/
+}
+
+/*.navbar-collapse .mr-1 {*/
+    /*margin-right: 10.25rem!important;*/
+/*}*/
 
 .navbar-brand {
     font-family: 'Caveat Brush', serif;
@@ -19,12 +32,13 @@ body {
     align-items: center;
 }
 
-.card-deck a {
-    text-decoration: none;
+.card-title {
+    font-size: 17px;
 }
 
-.card h5, p {
+.card-text {
     text-align: left;
+    font-size: small;
 }
 
 .card-img-top {
@@ -32,12 +46,19 @@ body {
     height: auto;
 }
 
+.date {
+    font-size: x-small;
+}
+
 .row {
     height: 5px;
 }
 
 .gradient0 {
-    background: linear-gradient(to left, #022b7a, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461, #022b7a);
+    /*    background: linear-gradient(to left, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461);
+    /*background: linear-gradient(to left, #0b032d, #843b62, #f67e7d, #ffb997, #f5c181, #fff1c1, #f76262, #216583, #293462);*/
+    /*background: linear-gradient(to left, #072798, #10a27b, #02e6d7, #84c81b, #facd02, #84c81b, #02e6d7, #10a27b, #072798);*/
+    background: linear-gradient(to left, #fb2e67, #e6539a, #ffb333, #84c81b, #98ca13, #0abb6d, #009577);
 }
 
 .btn-outline-secondary {
@@ -58,8 +79,13 @@ body {
     color: #85155f; /* #066057; #261f72; #ed2b44;*/
 }
 
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
 /* size of button */
-.btn-style{
+.btn-style {
     font-family: Raleway-SemiBold, serif;
     font-size: 12px;
     letter-spacing: 1px;
@@ -74,13 +100,13 @@ body {
 }
 
 /* article font */
-.article-font{
+.article-font {
     font-size: 18px;
 }
 
 /*!* Footer *!*/
 /*.site-footer{*/
-    /*margin-top: 30px;*/
-    /*color: #ffffff;*/
-    /*background-color: #0d0d0d;*/
+/*margin-top: 30px;*/
+/*color: #ffffff;*/
+/*background-color: #0d0d0d;*/
 /*}*/
