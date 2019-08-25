@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Curious Coder | Paradise for Coders</title>
+    <title>Curious Coder | Paradise for Curious Minds</title>
     <link rel="stylesheet" href="../static/css/style.css">
 
+    <!--font awesome ver5.0.6-->
+    <!--<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Poppins|Acme&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,69 +17,82 @@
 </head>
 <body>
 
-
 <!-- Navbar start -->
 <nav class="navbar navbar-expand-md navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="#" style="font-size: 15px; font-family: 'Acme', sans-serif;"><img
-            src="../static/images/python.png"> Curious Coder </a>
+    <a class="navbar-brand ml-4" href="#" style="font-size: 20px; font-family: 'Acme', sans-serif;"> Curious Coder </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Collapsible Navbar start -->
-    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+    <div class="collapse navbar-collapse justify-content-center mr-5" id="collapsibleNavbar">
+        <div class="mr-5">
+            <div class="mr-5">
+                <div class="mr-3">
 
-        <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#"> Start Here </a>
-            </li>
-
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Learn
-                    Python </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Start Here </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Page 1 </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Page 2 </a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Learn
+                                Python </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Store </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> More </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="search-box">
+                                <input class="search-txt" type="text" name="" placeholder="Type to search">
+                                <a class="search-btn" href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                            <!--<div class="input-group md-form form-sm form-2 pl-0">-->
+                            <!--<input class="form-control my-0 py-1 red-border" type="text" placeholder="Search..."-->
+                            <!--aria-label="Search">-->
+                            <!--<div class="input-group-append">-->
+                            <!--<span class="input-group-text red lighten-3" id="basic-text1">-->
+                            <!--<a href="#"><i class="fa fa-search text-grey" aria-hidden="true"></i></a>-->
+                            <!--</span>-->
+                            <!--</div>-->
+                            <!--</div>-->
+                        </li>
+                        <!--<li class="nav-item">-->
+                        <!--<button class="btn btn-danger ml-2" type="submit">Join</button>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item">-->
+                        <!--<a class="nav-link" href="#"> Sign In </a>-->
+                        <!--</li>-->
+                    </ul>
                 </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Store </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> More </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
-                    <a class="dropdown-item" href="#">Link 3</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <div class="input-group md-form form-sm form-2 pl-0">
-                    <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search..."
-                           aria-label="Search">
-                    <div class="input-group-append">
-                        <span class="input-group-text red lighten-3" id="basic-text1">
-                            <i class="fa fa-search text-grey" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <button class="btn btn-danger ml-2" type="submit">Join</button>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"> Sign In </a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <!-- Collapsible Navbar end -->
 </nav>
@@ -85,7 +100,6 @@
 <!-- Navbar border-bottom -->
 <div class="row gradient0"></div>
 <!-- Navbar end -->
-
 
 <!-- Container -->
 <div class="maincontainer">
@@ -95,105 +109,114 @@
 
                 <!-- Card Deck -->
                 <div class="card-deck">
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4">
+                        <img src="../static/images/demo_django.png" class="figure-img img-fluid rounded"
+                             alt="block image">
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5 style="font-size: 19px;">How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="java">Java</button>
+                            <button class="btn-style" id="django">Django</button>
+                            <button class="btn-style" id="python">Python</button>
                         </figcaption>
                     </figure>
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4" style="width: 100%; height: 26rem;">
+                        <img src="../static/images/demo_python2.png" class="figure-img img-fluid rounded"
+                             alt="block image">
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5>How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="python">Python</button>
+                            <button class="btn-style" id="django">Django</button>
                         </figcaption>
                     </figure>
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4" style="width: 100%; height: 26rem;">
+                        <img src="../static/images/demo_6.png" class="figure-img img-fluid rounded" alt="block image">
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5>How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="django">Django</button>
+                            <button class="btn-style" id="java">Java</button>
+                            <button class="btn-style" id="html">HTML5</button>
                         </figcaption>
                     </figure>
                 </div>
-                <br>
 
                 <!-- Card Deck-->
                 <div class="card-deck">
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4">
+                        <div class="image" style="width: 100%; height: auto;">
+                            <img src="../static/images/demo_htmlcss.jpg"
+                                 class="figure-img img-responsive img-fluid rounded" alt="block image">
+                        </div>
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5>How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="html">HTML5</button>
+                            <button class="btn-style" id="css">CSS3</button>
+                            <button class="btn-style" id="python">Python</button>
                         </figcaption>
                     </figure>
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4">
+                        <img src="../static/images/demo_7.png" class="figure-img img-responsive img-fluid rounded"
+                             alt="block image">
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5>How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="java">Java</button>
+                            <button class="btn-style" id="python">Python</button>
                         </figcaption>
                     </figure>
-                    <figure class="col-4">
-                        <img src="../static/images/demo_8.jpg" class="figure-img img-fluid rounded" alt="block image">
+                    <figure class="figure col-4">
+                        <img src="../static/images/demo_python.jpg" class="figure-img img-fluid rounded"
+                             alt="block image">
                         <figcaption class="figure-caption">
-                            <a class="card-title" href="#"><h5>How to implement hexagon
+                            <a class="card-title" href="#"><h5>How to create hexagon
                                 grid image responsive html5</h5></a>
-                            <div class="card-text" style="font-family: 'Poppins', sans-serif;"><i
+                            <div class="card-text" style="font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;"><i
                                     class="fa fa-user"></i> <b>Miguel
                                 Grinberg</b></div>
-                            <div><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2">7/29/2019</a>
+                            <div class="mb-1"><i class="fa fa-calendar-o" aria-hidden="true"> </i> <a class="date ml-2"
+                                                                                                      style="font-size: smaller;"><b>7/29/2019</b></a>
                             </div>
                             <i class="fa fa-tags"></i>
-                            <button class="btn-xs btn-outline-secondary btn-style">Flask</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Programming</button>
-                            <button class="btn-xs btn-outline-secondary btn-style">Python</button>
+                            <button class="btn-style" id="html">HTML5</button>
+                            <button class="btn-style" id="css">CSS3</button>
                         </figcaption>
                     </figure>
                 </div>
@@ -214,14 +237,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-<!-- Footer
-    <footer class="site-footer">
-        <div class="container text-center">
-            <small>Copyright; 2019 &copy; My Website</small>
-        </div>
-    </footer>
-    Footer -->
 
 </body>
 </html>
