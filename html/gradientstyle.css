@@ -1,0 +1,16 @@
+#button {
+    background: linear-gradient(#FFF, #FFF) padding-box center,
+    linear-gradient(to right, blue 0%, green 100%) border-box;
+    background-size: 100% 100%, auto;
+    background-repeat: no-repeat;
+    border: 3px solid transparent;
+    color: #000;
+    border-radius: 25px;
+    margin: 60px auto 0;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px 22px;
+    transition: all .5s ease;
+    display: block;
+}
+    
