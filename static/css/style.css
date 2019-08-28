@@ -1,12 +1,25 @@
 body {
-    width: 100%;
-    height: auto;
+    margin: 0;
+    padding: 0;
+    color: #26294a;
+    letter-spacing: 0;
+    background: #f7f7f7;
 }
 
-.navbar-brand {
-    font-family: 'Caveat Brush', serif;
-    font-size: 30px;
+.navbar {
+    /*background-color: #000033;*/
+    background-color: #00001a;
+    /*background-color: #141519;*/
+    /*#563e7c #422057ff #141519*/
+}
 
+/*.navbar-collapse .mr-1 {*/
+/*margin-right: 10.25rem!important;*/
+/*}*/
+
+.navbar-brand {
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
 }
 
 .navbar-brand img {
@@ -21,29 +34,63 @@ body {
     align-items: center;
 }
 
-.card-deck a {
-    text-decoration: none;
+.nav-item .nav-link {
+    font-size: 18px;
 }
 
-.card h5, p {
-    text-align: left;
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-10%, -50%);
+    background: #2f3640;
+    height: 50px;
+    border-radius: 40px;
+    padding: 5px;
 }
 
-.card-img-top {
-    width: 100%;
-    height: auto;
+.search-box:hover > .search-txt {
+    width: 200px;
+    padding: 0 6px;
 }
 
-footer {
-    padding: 10px;
-    margin-top: 30px;
+.search-box:hover > .search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt {
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
     color: #ffffff;
-    background-color: #0d0d0d;
-    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
 }
 
-body {
-    color: #26294a;
+.card-title h5 {
+    font-size: 18px;
+    color: indigo;
+}
+
+.card-text {
+    text-align: left;
+    font-size: small;
 }
 
 .row {
@@ -51,23 +98,39 @@ body {
 }
 
 .gradient0 {
-    background: linear-gradient(to left, #022b7a, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461, #022b7a);
+    /*background: linear-gradient(to left, #26294a, #055459, #077353, #14c285, #abd96d, #fcbf54, #ee6c3b, #ec0e47, #a02c5d, #710461);
+    /*background: linear-gradient(to left, #0b032d, #843b62, #f67e7d, #ffb997, #f5c181, #fff1c1, #f76262, #216583, #293462);*/
+    /*background: linear-gradient(to left, #072798, #10a27b, #02e6d7, #84c81b, #facd02, #84c81b, #02e6d7, #10a27b, #072798);*/
+    background: linear-gradient(to right, #fb2e67, #e6539a, #ffb333, #84c81b, #98ca13, #0abb6d, #009577);
 }
 
-.btn-primary {
-    background-color: #337ab7;
-    padding: 0;
-
+.btn {
+    border-color: #00001a;
 }
 
-.btn-outline-secondary {
+.btn-outline {
     background-color: #ffffff;
-    border-color: darkgray;
+    border: 1px solid #00001a;
+    border-radius: 10px;
 }
 
-.btn-outline-secondary:hover {
-    background-color: #ffffff;
-    color: #85155f;
+.btn-outline:hover {
+    background-color: #00001a;
+    color: #ffffff;
+}
+
+.figure-caption .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.figure .figure-img {
+    position: relative;
+    /*float: left;*/
+    width:  300px;
+    height: 150px;
+    background: no-repeat 50% 50%;
+    background-size: cover;
 }
 
 .maincontainer {
@@ -76,4 +139,50 @@ body {
 
 .nameColor {
     color: #85155f; /* #066057; #261f72; #ed2b44;*/
+}
+
+.btn-style {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #3C1053FF, #DF6589FF) border-box;
+    background-size: 100% 100%, auto;
+    border: 1px solid transparent;
+    font-family: 'Acme', sans-serif;
+    color: #3b3e5c;
+    border-radius: 6px;
+    margin: auto;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 12px;
+    padding: auto;
+}
+
+/*Tags with colors*/
+#java {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #4e768f, #f8991b) border-box;
+}
+
+#django {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #2f9600, #ffd43a) border-box;
+}
+
+#python {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #356a96, #ffd43a) border-box;
+}
+
+#html {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #e54d26, #f16528) border-box;
+}
+
+#css {
+    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
+    linear-gradient(to right, #0071b7, #1b84be) border-box;
+}
+
+/* article font */
+.article-font {
+    font-size: 18px;
 }
