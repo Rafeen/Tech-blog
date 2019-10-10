@@ -15,7 +15,7 @@ body {
 /*}*/
 
 .navbar-brand {
-    font-family: 'Acme', sans-serif;
+    /*font-family: 'Acme', sans-serif;*/
     font-size: 50px;
 }
 
@@ -40,8 +40,8 @@ body {
     top: 50%;
     left: 10%;
     transform: translate(-10%, -50%);
-    /*background: #2f3640;*/
-    background: linear-gradient(to right, #f66e18, #99c621);
+    background: #c1ceca;
+    /*background: linear-gradient(to right, #f66e18, #99c621);*/
     /*background: linear-gradient(#e1304d, #f66e18);*/
     height: 40px;
     border-radius: 30px;
@@ -58,7 +58,7 @@ body {
 }
 
 .search-btn {
-    color: #00001a;
+    color: #019777;
     float: right;
     width: 30px;
     height: 30px;
@@ -74,7 +74,8 @@ body {
     border: none;
     outline: none;
     float: left;
-    color: #ffffff;
+    color: #000000;
+    /*font-color: #000000;*/
     padding: 0;
     font-size: 16px;
     transition: 0.4s;
@@ -98,7 +99,7 @@ body {
 }
 
 .gradient0 {
-    background: linear-gradient(to right, #fb2e67, #e6539a, #ffb333, #84c81b, #98ca13, #0abb6d, #009577);
+        background: linear-gradient(to right, #fb2e67, #e6539a, #ffb333, #ecdc11, #ecd213, #0abb6d, #009577);
 }
 
 .btn {
@@ -161,28 +162,30 @@ body {
 
 /*Tags with colors*/
 #java {
-    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
-    linear-gradient(to right, #4e768f, #f8991b) border-box;
+     background: linear-gradient(45deg, #dd5037, #ef8235);
+    color: white;
 }
 
 #django {
-    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
-    linear-gradient(to right, #2f9600, #ffd43a) border-box;
+     background: linear-gradient(45deg, #092e20, #69af52);
+    color: white;
 }
 
 #python {
-    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
-    linear-gradient(to right, #356a96, #ffd43a) border-box;
+        background: linear-gradient(45deg, #69af52, #dcd146);
+    color: white;
 }
 
+
 #html {
-    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
-    linear-gradient(to right, #e54d26, #f16528) border-box;
+    background: linear-gradient(45deg, #fba444, #fba444);
+    color: white;
 }
 
 #css {
-    background: linear-gradient(#e9e8e6, #FFF) padding-box center,
-    linear-gradient(to right, #0071b7, #1b84be) border-box;
+     background: linear-gradient(45deg, #1351af, #1351af);
+     color: white;
+
 }
 
 /* article font */
@@ -203,8 +206,8 @@ body {
         top: 50px;
         left: 9%;
         transform: translate(-10%, -120%);
-        /*background: #2f3640;*/
-        background: linear-gradient(to right, #f66e18, #99c621);
+        background: #c1ceca;
+        /*background: linear-gradient(to right, #f66e18, #99c621);*/
         /*background: linear-gradient(#e1304d, #f66e18);*/
         height: 40px;
         border-radius: 30px;
@@ -214,5 +217,7 @@ body {
     .search-box:hover > .search-txt {
         width: 200px;
         padding: 0 6px;
+        font-color: #000000;
     }
 }
+

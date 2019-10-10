@@ -19,7 +19,10 @@
 <!-- Navbar start -->
 <nav class="navbar navbar-expand-md navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand ml-4" href="#" style="font-size: 20px; font-family: 'Acme', sans-serif;"> Curious Coder </a>
+    <!-- <a class="navbar-brand ml-4" href="#" style="font-size: 20px;"> Curious Coder </a> -->
+    <a href="" class="typewrite navbar-brand ml-4" style="font-size: 20px;" data-period="2000" data-type='[ "Curious Coder", "Rafeen"]'>
+    <span class="wrap"></span>
+  </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -227,4 +230,62 @@
 <!--<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
 
 </body>
+<script type="text/javascript">
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.00em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
 </html>

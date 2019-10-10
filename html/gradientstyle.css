@@ -13,4 +13,6 @@
     transition: all .5s ease;
     display: block;
 }
-    
+.custom-allign{
+	text-align: center !important;
+    }
